@@ -1,0 +1,23 @@
+#home-container {
+    min-height: 500px;
+    width: 100%;
+}
+    #home-content-top {
+        height: 70%;
+        width: 100%;
+        background: linear-gradient(#1f2833, #303e4f);
+    }
+    #home-content-bottom {
+        min-height: 30%;
+        width: 100%;
+        background: #f1f2f3;
+        overflow: hidden;
+    }
+.content-container {
+    height: auto;
+    width: 100%;
+    background: #f1f2f3;
+    overflow: hidden;
+}
+
+

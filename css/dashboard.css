@@ -1,0 +1,47 @@
+.thumb-list-container {
+    height: 280px;
+    width: 96%;
+    margin: 2%;
+    box-sizing: border-box;
+}
+    .thumb-list-container-top {
+        height: 80%;
+        width: 100%;
+        background: #45A29E;
+        box-sizing: border-box;
+    }
+    .thumb-list-container-bot {
+        height: 60px;
+        width: 100%;
+        border: 2px solid #45A29E;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 60px;
+    }
+        .thumb-list-title {
+            margin: 0;
+            padding: 0;
+            color: #1f2833;
+            font-size: 1.1em;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+/*==========     AMAZON RESULTS     ==========*/
+.amazon-results-container {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: green;
+}
+    .amazon-product-container {
+        height: 280px;
+        width: 140px;
+        margin: auto;
+        background: yellow;
+        border: 2px solid black;
+        color: white;
+        text-align: center;
+    }

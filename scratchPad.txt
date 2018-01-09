@@ -1,0 +1,10 @@
+Anchor For Nav
+----------------
+href="index.php?catID=<?php echo $cat['catID']; ?>
+title="<?php echo $cat['catName']; ?>
+
+Get Items From Cart Query
+--------------------------
+SELECT it.qty, pr.productName, pr.price, pi.imageURL FROM tblitems AS it JOIN tblproduct AS pr ON it.productID = pr.productID JOIN tblproductimages AS pi ON pr.productID = pi.productID WHERE it.cartID = '$cartID'
+
+

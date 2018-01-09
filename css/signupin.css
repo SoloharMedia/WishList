@@ -1,0 +1,98 @@
+.signupin-content-container {
+    min-height: 100%;
+    width: 100%;
+    background: #f1f2f3;
+}
+    .button-container {
+        height: 55px;
+        width: 180px;
+        display: block;
+        margin: 15% auto;
+        border: 2px solid #45A29E;
+        overflow: hidden;
+        position: relative;
+        background: #1F2833;
+    }
+        .button-animation {
+            height: 55px;
+            width: 180px;
+            background: linear-gradient(to right, rgba(204,204,204, .4), transparent 20%);
+            position: relative;
+            top: 0;
+            left: -20%;
+            transition: all .4s;
+        }
+            .contact-link {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: block;
+                position: absolute;
+                z-index: 50;
+                text-align: center;
+                color : #C5C6C7;
+                font-size: 1.1em;
+                font-family: 'Poppins', sans-serif;
+                letter-spacing: 2px;
+                font-weight: 300;
+                text-decoration: none;
+                line-height: 55px;
+                transition: all 0.6s;
+            }
+            .contact-link:hover {
+                color: #45A29E;
+                background: #1F2833;
+            }
+    #form-error-container {
+        height: auto;
+        width: 90%;
+        padding: 1%;
+        margin: 0 auto;
+        background: rgba(255, 0, 0, 0.2);
+        border: 1px solid #F00;
+    }
+    .form-container {
+        height: auto;
+        width: 90%;
+        margin: 0 auto 30px auto;
+        padding-bottom: 2%;
+        background: linear-gradient(#f1f2f3, #FFF);
+    }
+        input:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 30px white inset;
+        }
+        .form-input {
+            height: 40px;
+            width: 90%;
+            margin: 10px auto;
+            display: block;
+            border: transparent;
+            color: #999;
+            border: 2px solid #45A29E;
+        }
+        .form-input[type=text] {
+            font-size: 1.1em;
+            font-weight: 300;
+            font-family: 'Poppins', sans-serif;
+         }
+        .form-button {
+            color : #C5C6C7;
+            font-size: 1.05em;
+            letter-spacing: 1px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .input-error {
+            color: #F00;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        .input-label {
+            display: inline-block;
+            margin-top: 25px;
+            margin-left: 5%;
+            color: #333;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+    
